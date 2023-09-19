@@ -4,9 +4,9 @@ namespace Practice1
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"CalculatePi output: {Experiment.CalculatePi(1, 2, 5, 10000)}");
         }
     }
 }
